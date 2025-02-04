@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
     let carousel = new bootstrap.Carousel(document.getElementById('carouselQuienesSomos'), {
-        interval: 3000,  // Cambia de imagen cada 3 segundos
+        interval: 4000,  // Cambia de imagen cada 4 segundos
         pause: false,  // No se detiene al pasar el mouse
         wrap: true  // Se repite en bucle
     });
