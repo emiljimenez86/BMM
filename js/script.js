@@ -1,12 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
     const productos = [
-        { nombre: "Bomba de dragado", imagen: "img/bomba-de-dragado.jpeg", whatsapp: "+573235883871" },
-        { nombre: "Bomba de eje libre", imagen: "img/bomba-de-eje.jpeg", whatsapp: "+573235883871" },
-        { nombre: "Disco de embrague de 59 dientes", imagen: "img/disco-de-embrague.jpeg", whatsapp: "+573235883871" },
-        { nombre: "Motobombas", imagen: "img/motobombas.jpeg", whatsapp: "+573235883871" },
-        { nombre: "Motor Diesel Weichai-Baudovin", imagen: "img/motor-diesel-weichai.jpeg", whatsapp: "+573235883871" },
-        { nombre: "Tablero para motores mecánicos", imagen: "img/tablero-para-motores.jpeg", whatsapp: "+573235883871" },
-        { nombre: "Tubo metálico 18, 19 y 20 pulgadas", imagen: "img/tubo-metalico.jpeg", whatsapp: "+573235883871" },
+        { nombre: "Motores CAT 3412", imagen: "img/Productos/motores-cat.webp", whatsapp: "+573235883871" },
+        { nombre: "Motores de combustión", imagen: "img/Productos/motores-de-combustion.webp", whatsapp: "+573235883871" },
+        { nombre: "Motores cummins KTA19", imagen: "img/Productos/motores-cummins.webp", whatsapp: "+573235883871" },
+        { nombre: "Motor Diesel Weichai-Baudovin", imagen: "img/Productos/motor-diesel.webp", whatsapp: "+573235883871" },
+        { nombre: "Motores hidráulicos", imagen: "img/Productos/motores-hidraulicos.webp", whatsapp: "+573235883871" },
+        { nombre: "Bomba de dragado", imagen: "img/Productos/bomba-de-dragado.webp", whatsapp: "+573235883871" },
+        { nombre: "Bomba de eje libre", imagen: "img/Productos/bomba-de-eje-libre.webp", whatsapp: "+573235883871" },
+        { nombre: "Disco de embrague de 59 dientes", imagen: "img/Productos/disco-de-embrague.webp", whatsapp: "+573235883871" },
+        { nombre: "Motobombas para la minería industrial", imagen: "img/Productos/motobombas.webp", whatsapp: "+573235883871" },
+        { nombre: "Embragues mecánicos", imagen: "img/Productos/embragues-mecanicos.webp", whatsapp: "+573235883871" },
+        { nombre: "Tablero para motores mecánicos", imagen: "img/Productos/tablero-para-motores.webp", whatsapp: "+573235883871" },
+        { nombre: "Tubo metálico 18, 19 y 20 pulgadas", imagen: "img/Productos/tubo-metalico.webp", whatsapp: "+573235883871" },
+        { nombre: "Tubería de polipropileno para Dragas", imagen: "img/Productos/tuberia-de-polipropileno.webp", whatsapp: "+573235883871" },
+        
     ];
 
     const productosContainer = document.getElementById("productos");
@@ -51,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
     let carousel = new bootstrap.Carousel(document.getElementById('carouselQuienesSomos'), {
-        interval: 4000,  // Cambia de imagen cada 4 segundos
+        interval: 3000,  // Cambia de imagen cada 3 segundos
         pause: false,  // No se detiene al pasar el mouse
         wrap: true  // Se repite en bucle
     });
