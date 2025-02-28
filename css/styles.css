@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body {
+    color: aliceblue;
+    background-color: #D4A017;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,6 +9,7 @@ body {
 }
 
 header {
+    color: aliceblue;
     margin-bottom: 10px;
 }
 
@@ -14,6 +18,7 @@ header {
     border-radius: 10%;
 }
 main {
+    color: white;
     flex: 1; 
     margin-bottom: 5px;
     margin: 0;
@@ -22,10 +27,20 @@ main {
 }
 
 h1 {
-    font-size: 230%;
-    color: black;
-    text-shadow: 0px 0px 5px rgb(255,255,255,0.5);
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 230%;
+    color: white;
+   
+    font-weight: bold;
+}
+
+div.card-body {
+    color: white;
+    background-color: #D4A017;
+
 }
 
 /* Contenedor del carrusel */

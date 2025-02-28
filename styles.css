@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D4A017;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #B8860B;
+    padding: 15px;
+}
+
+.ventas-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.pagina {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.pagina img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .ventas-link {
+        font-size: 16px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+    
+    .pagina {
+        margin: 10px auto;
+        max-width: 100%;
+    }
+    
+    .pagina img {
+        border-radius: 5px;
+    }
+    
+    footer {
+        background-color: black;
+        position:relative;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: index 1000;
+        padding: 1rem;
+    }
+    .creativo {
+        width: 70px;
+    }
+}
