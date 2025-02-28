@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Importaciones BM&M</title>
+    
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+   
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Iconos FontAwesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="img/RedesSocialesImg/logo.png" alt="Logo" class="logo">
+            <a href="index.html" class="btn btn-light">Inicio</a>
+            <input type="text" id="search" class="form-control w-25" placeholder="Buscar">
+        </div>
+    </header>
+
+    <!-- Carrusel -->
+    <section id="quienes-somos" class="container quienes-somos">
+        <div id="carouselQuienesSomos" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/Banner/banner1.webp" class="d-block w-100 carousel-img" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/banner2.webp" class="d-block w-100 carousel-img" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/banner3.webp" class="d-block w-100 carousel-img" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/banner4.webp" class="d-block w-100 carousel-img" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/banner5.webp" class="d-block w-100 carousel-img" alt="Imagen 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/banner6.webp" class="d-block w-100 carousel-img" alt="Imagen 6">
+                </div>
+                
+            </div>
+            
+            <!-- Controles de navegación -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselQuienesSomos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselQuienesSomos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN DE PRODUCTOS -->
+    <section class="container my-4">
+        <h1 class="text-center">NUESTROS PRODUCTOS</h1>
+        <div class="row" id="productos">
+           
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="container my-5">
+        <h2 class="text-center" style="font-weight: bold;">Contáctanos por correo</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6"> 
+                <form id="contactForm" action="https://formspree.io/f/mrbekwoo" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label" style="font-weight: bold;">Nombre:</label>
+                        <input type="text" class="form-control" name="name" required placeholder="Escribe aquí tu nombre y apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label" style="font-weight: bold;">Correo Electrónico:</label>
+                        <input type="email" class="form-control" name="email" required placeholder="Escribe aquí tu correo electrónico">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label" style="font-weight: bold;">Mensaje:</label>
+                        <textarea class="form-control" name="message" rows="3" required placeholder="Por favor deja tu mensaje, presiona enviar, regresa al sitio y vuelve a cargar o actualizar la App web."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE UBICACIÓN -->
+    <div class="text-center mt-4">
+        <h4 style="font-weight: bold;">Dirección</h4>
+        <p>
+            <a href="https://maps.app.goo.gl/frBbrbFMxCZuJ98z5" style="text-decoration: none; text-shadow: none;">
+                📍 Medellín, Antioquia, Colombia
+            </a>
+        </p>
+
+        <h4 class="redes" style="font-weight: bold;">Redes Sociales</h4>
+        <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
+            <a href="tel:+573222033623">
+                <img src="./img/RedesSocialesImg/llamadas.png" alt="Llamar" class="social-icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="img/RedesSocialesImg/facebook2.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://wa.me/+573235883871" target="_blank">
+                <img src="img/RedesSocialesImg/whatsaap (2).png" alt="WhatsApp" class="social-icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="img/RedesSocialesImg/instagram1.png" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </div>
+
+   
+    <footer class="bg-dark text-white text-center p-3">
+        &copy; 2025 Global Importaciones BM&M. Todos los derechos reservados.
+        <a href="https://wa.me/+573235883871" target="_blank">
+            <img class="creativo" src="./img/RedesSocialesImg/creativologo.png" alt="logo creativo">
+        </a> & Emil Jiménez Desarrollador Web.
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
