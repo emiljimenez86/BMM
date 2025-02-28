@@ -43,6 +43,12 @@ div.card-body {
 
 }
 
+a.btn.btn-light {
+    background-color: #D4A017;
+    color: white;
+
+}
+
 /* Contenedor del carrusel */
 .quienes-somos {
     position: relative;

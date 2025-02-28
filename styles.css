@@ -34,6 +34,20 @@ main {
     border-radius: 10px;
 }
 
+footer {
+    background-color: black;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: index 1000;
+    padding: 1rem;
+}
+.creativo {
+    width: 70px;
+}
 
 
 /* Estilos responsivos */
@@ -60,18 +74,5 @@ main {
         border-radius: 5px;
     }
     
-    footer {
-        background-color: black;
-        position:relative;
-        bottom: 0;
-        width: 100%;
-        left: 0;
-        right: 0;
-        width: 100%;
-        z-index: index 1000;
-        padding: 1rem;
-    }
-    .creativo {
-        width: 70px;
-    }
+   
 }
