@@ -1,6 +1,6 @@
 {
     "name": "Global Importaciones BM&M",
-    "short_name": "Global Importaciones",
+    "short_name": "Global BM&M",
     "start_url": "./ventas.html",
     "display": "standalone",
     "background_color": "#ffffff",

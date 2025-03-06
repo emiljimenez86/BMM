@@ -5,7 +5,7 @@ self.addEventListener("install", (event) => {
             return cache.addAll([
                 "./ventas.html",
                 "./styles.css",
-                "./img/RedesSocialesImg/logo-correo.png"
+                "#"
             ]);
         })
     );
